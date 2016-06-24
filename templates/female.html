@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+	<title>Psychick</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<link rel=stylesheet type="text/css" href="static/style.css" media="screen">
+</head>
+
+
+<body>
+<div id="holder">
+
+	<div id="header">
+		<a href="/"> Home </a> |  
+		<a href="/how">How We Do </a> |  
+		<a href="/who">Who We Are </a>
+	</div>
+
+	<div id = "main">
+		<img id="logo" src="static/female.jpg"><br>
+		<form action="/" method="post" id="main_form">
+			<input id = "handle" type = "text" name = "twitterHandle" value = "" maxlength="100" size="50" class="inputbox" placeholder = "Twitter handle" /><br><br>
+			<input type="submit" id = "submit" value="visit Psychick" class = "input_button" style="width:175px" onclick="loading()">
+		</form>
+		<p id="text" style="color: DeepPink; font-weight: bold; font-size: 50">
+		@{{py_obj[0]}} is {{py_obj[2]}} and {{py_obj[1]}}.</p>
+		<img id = 'wordcloud' src = {{py_obj[3]}}>
+	</div>		
+
+</div>
+
+<script type = "text/javascript">
+function loading() {
+    document.getElementById("main").innerHTML = "<br><b>Psychick is reading tweets...<b><br><br><img src= 'static/giphy.gif'>"}
+</script>
+
+</body>
+</html>
