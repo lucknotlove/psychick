@@ -1,10 +1,10 @@
 
-                          Twitter Demographics Predictor
+                          Twitter Demographics Estimator
 
   What is it?
   -----------
 
-  The Twitter Demographics Predictor is a Flask application that predicts the user’s gender, age range and pet words when a valid Twitter handle is given.
+  The Twitter Demographics Estimator  is a Flask application that predicts the user’s gender, age range and pet words when a valid Twitter handle is given.
 
   Installation
   ------------
