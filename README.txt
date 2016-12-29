@@ -1,5 +1,5 @@
 
-                          Twitter Demographics Estimator
+                          Twitter Demographics Estimator (Psychick)
 
   What is it?
   -----------
