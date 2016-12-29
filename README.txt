@@ -21,5 +21,5 @@
 
   Authors
   -------
-  Frisia Xue
-  Bella Wang
+  Yuxin Wang
+  Yiting Xue
