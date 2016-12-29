@@ -23,6 +23,3 @@
   -------
   Frisia Xue
   Bella Wang
-  Cheyenne Parsley
-  Aquila Khanam
-  Keerthana Kumar
