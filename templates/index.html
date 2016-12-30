@@ -17,19 +17,18 @@
 
 	<div id = "main">
 		<img id="logo" src="static/logo.jpg"><br>
+			<p id="text" style="color: #F08080; font-style: italic;">Psychick tells your gender age & pet words by reading that obscure tweeting hand</p>
 		<form action="/" method="post" id="main_form">
-			<input type = "text" name = "twitterHandle" value = "" maxlength="100" size="50" class="inputbox" placeholder = "Twitter handle" /><br><br>
-			<input type="submit" value="visit Psychick" class = 
-			"input_button" style="width:175px" onclick="loading()">
+			<input type = "text" name = "twitterHandle" value = "" maxlength="100" size="50" class="inputbox" placeholder = "Twitter handle" />
+			<input type="submit" value="Read" class = "input_button" onclick="loading()">
 		</form>
-		<p id="text" style="color: DeepPink; font-style: italic">Psychick tells your gender, age range and pet words by reading that obscure tweeting hand</p>
-	</div>		
+	</div>	
 
 </div>
 
 <script type = "text/javascript">
 function loading() {
-    document.getElementById("main").innerHTML = "<br><b>Psychick is reading tweets<b><br><br><img src= 'static/giphy.gif'>"}
+    document.getElementById("main").innerHTML = "<br><b>Psychick is reading tweets...<b><br><br><img src= 'static/giphy.gif'>"}
 </script>
 
 

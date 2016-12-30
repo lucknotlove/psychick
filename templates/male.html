@@ -18,10 +18,10 @@
 	<div id = "main">
 		<img id="logo" src="static/male.jpg"><br>
 		<form action="/" method="post" id="main_form">
-			<input id = "handle" type = "text" name = "twitterHandle" value = "" maxlength="100" size="50" class="inputbox" placeholder = "Twitter handle" /><br><br>
-			<input type="submit" id = "submit" value="visit Psychick" class = "input_button" style="width:175px" onclick="loading()">
+			<input id = "handle" type = "text" name = "twitterHandle" value = "" maxlength="100" size="50" class="inputbox" placeholder = "Twitter handle" />
+			<input type="submit" id = "submit" value="Psychick" class = "input_button" style="width:110px" onclick="loading()">
 		</form>
-		<p id="text" style="color:DeepPink; font-weight: bold">@{{py_obj[0]}} is {{py_obj[2]}} and {{py_obj[1]}}.</p>
+		<p id="text" style="color:#F08080; font-weight: bold">@{{py_obj[0]}} is {{py_obj[2]}} and {{py_obj[1]}}.</p>
 		<img id = 'wordcloud' src = {{py_obj[3]}}>
 
 	</div>		

@@ -2,7 +2,7 @@ html {
 	 font-family: Helvetica, Verdana,Arial,Tahoma, sans-serif;
 	 font-size: large !important;
 	 line-height: 1.4em;
-	 color: #999999;
+	 color: mediumvioletred;
 	  height:100%;
 }
 
@@ -13,7 +13,7 @@ body {
     padding:0;
     max-width: 100%;
     height:auto;
-    background: url("background1.jpeg");
+    background: url("background2.jpeg");
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
@@ -36,6 +36,7 @@ body {
 }
 
 #main {
+    font-family:courier; 
     min-height:100%;
     position:relative;    
     text-align: center;
