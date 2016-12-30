@@ -33,7 +33,11 @@ def how_we_do():
 def who_we_are():
 	return render_template('who_we_are.html')
 
-port = os.getenv('PORT', '4000')
+@app.errorhandler(500)
+def pageNotFound(error):
+    return render_template('error.html')
+
+port = os.getenv('PORT', '5000')
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=int(port), debug=True)
 
