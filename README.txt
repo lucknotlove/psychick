@@ -18,8 +18,3 @@
   - Open the localhost link in a browser
   - In the web app, input a twitter handle without the @ symbol. Note that the input is case sensitive
   - After processing, the user's gender and age range are predicted and a word cloud for the user's most used words in tweets is generated.
-
-  Authors
-  -------
-  Yuxin Wang
-  Yiting Xue
